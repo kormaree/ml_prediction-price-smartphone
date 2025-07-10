@@ -130,7 +130,7 @@ def main():
             if predicted_price is not None:
                 st.metric(
                     label="Предсказанная цена",
-                    value=f"${predicted_price:,.0f}",
+                    value=f"{predicted_price:,.0f}",
                     delta=None
                 )
 
